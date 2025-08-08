@@ -63,5 +63,5 @@ int main (){
     printf("PIB: %f\n", pib2);
     printf("Pontos turísticos: %d\n", turismo2);
 
-    return 1;
+    return ;
 }
