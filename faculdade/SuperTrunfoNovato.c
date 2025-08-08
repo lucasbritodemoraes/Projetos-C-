@@ -2,16 +2,19 @@
 
 int main (){
 
+    // Variáveis para armazenar os dados da carta 1
     char estado1[50] = "", codigocarta1[50] = "", cidade1[50] = "";
     int populacao1;
     float area1, pib1;
     int turismo1;
 
+    // Variáveis para armazenar os dados da carta 2
     char estado2[50] = "", codigocarta2[50] = "", cidade2[50] = "";
     int populacao2;
     float area2, pib2;
     int turismo2;
     
+    // Imputando os dados da carta 1
     printf("Bem-vindo ao Super Trunfo Países!\n");
     printf("Inicie cadastrando a primeira carta!\n");
     printf("Insira o estado:");
@@ -29,6 +32,7 @@ int main (){
     printf("Insira o número de pontos turísticos:");
     scanf("%d",&turismo1);
 
+    // Imputando os dados da carta 2
     printf("\nAgora cadastre a segunda carta!\n");
     printf("Insira o estado:");
     scanf("%s", estado2);
@@ -45,6 +49,7 @@ int main (){
     printf("Insira o número de pontos turísticos:");
     scanf("%d",&turismo2);
 
+    // Exibindo os dados da carta 1
     printf("\n--- Carta 1 ---\n");
     printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigocarta1);
@@ -54,6 +59,7 @@ int main (){
     printf("PIB: %f\n", pib1);
     printf("Pontos turísticos: %d\n", turismo1);
 
+    // Exibindo os dados da carta 2
     printf("\n--- Carta 2 ---\n");
     printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigocarta2);
