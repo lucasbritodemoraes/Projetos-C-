@@ -1,0 +1,17 @@
+inicio
+    imput
+
+        usuario imputa a nota do ALUNO 1
+        usuario imputa a nota do ALUNO 2
+        usuario imputa a nota do ALUNO 3
+
+    operação
+
+        soma notas de ALUNO 1, ALUNO 2,  ALUNO 3
+        divide resultado / 3
+
+    imprime
+
+        resultado da media
+
+fim
